@@ -71,6 +71,26 @@
 {
     width: 500px;
 }
+.div1-2-3
+{
+    width: 80%;
+    height: 100px
+    ;margin: auto;
+    /* border:  2px solid red; */
+}
+.div-cont
+{
+    width: 250px;
+    height: 80px;
+    /* border:  2px solid red; */
+    /* color: white; */
+}
+.flex-cont
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
 @media (max-width:510px) {
 .button1
 {
@@ -96,5 +116,18 @@
 .fon-dud
 {
     height: 800px;
+}
+.none-div
+{
+    display: none;
+}
+.flex-cont
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    /* margin: auto; */
+    /* justify-content: spac/e-around; */
+    /* margin-top: 100px; */
 }
 }
