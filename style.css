@@ -185,7 +185,7 @@
 {
     width: 80%;
     height: 300px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: auto;
     margin-top: 50px;
 }
@@ -200,12 +200,42 @@
     display: flex;
     justify-content: space-around;
 }
+.img-skrin
+{
+    width: 100%;
+    /* height: 400px; */
+}
+.cont2
+{
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px gray;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.img-limu
+{
+    width: 100%;
+
+}
+.bar-ba-bar
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
 @media (max-width:510px) {
 .button1
 {
     display: none;
 }
 .button2
+{
+    display: none;
+}
+.img-skrin
 {
     display: none;
 }
